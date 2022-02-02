@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</head>
+
+
+
+
+<body>
+    <div class="row">
+        <div class="col-md-3 sidebar">
+            <nav class="navbar navbar-light bg-light">
+                <ul class="navbar-nav">
+                    <img src="../images/React_logo_wordmark.png" alt="" class="logo">
+                    <br>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">
+                            <h3>Documentation</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./what.html">What is ReactJS?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./install.html">Installation or Setup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./create.html">Create React App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./components.html">Components and Props</a>
+                    </li>
+                </ul>
+            </nav>
+            <div style="background-color:#f8f9fa;min-height: 150vh;">
+
+            </div>
+        </div>
+        <div class="col-md-8">
+            <br>
+            <h3>Create React App</h3>
+            <hr class="what-hr">
+            <div class="what-p">
+
+                create-react-app is a React app boilerplate generator created by Facebook. It provides a
+                development environment configured for ease-of-use with minimal setup, including:
+                <ul>
+                    <li>ES6 and JSX transpilation</li>
+                    <li>Dev server with hot module reloading</li>
+                    <li>Code linting</li>
+                    <li>CSS auto-prefixing</li>
+                    <li>Build script with JS, CSS and image bundling, and sourcemaps</li>
+                    <li>Jest testing framework</li>
+                </ul>
+
+                <h5>Installation</h5>
+                First, install create-react-app globally with node package manager (npm).
+
+                npm install -g create-react-app
+                Then run the generator in your chosen directory.
+                <div class="code">
+                    create-react-app my-app
+                </div>
+
+                Navigate to the newly created directory and run the start script.
+                <div class="code">
+                    cd my-app/
+                    npm start
+                </div>
+
+                Configuration
+                create-react-app is intentionally non-configurable by default. If non-default usage is required, for
+                example, to use a compiled CSS language such as Sass, then the eject command can be used.
+                <div class="code">
+                    npm run eject
+                </div>
+                This allows editing of all configuration files. N.B. this is an irreversible process.
+                <br>
+                <br>
+                <h5>Build React App</h5>
+                To build your app for production ready, run following command
+                <div class="code">
+                    npm run build
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
